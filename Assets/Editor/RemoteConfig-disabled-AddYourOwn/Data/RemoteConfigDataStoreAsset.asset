@@ -1,0 +1,618 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
+  m_Name: RemoteConfigDataStoreAsset
+  m_EditorClassIdentifier: 
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"f36d68fe-9f81-4920-a61a-c29cf24cbbd4\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"locationsInfo\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"enabled\": true,\r\n       
+    \"PlayerScale\": 0.7,\r\n        \"Zoom\": 16,\r\n        \"StandardSensitivity\":
+    100,\r\n        \"locations\": [\r\n          \"MuseumGouda\",\r\n          \"GoudseHout\",\r\n         
+    \"DeGoudseWaag\",\r\n          \"Antoniuscollege\",\r\n          \"CinemaGouda\",\r\n         
+    \"GroeneHartZiekenhuis\",\r\n          \"SkateparkDeSluis\",\r\n          \"Ijsselhof\",\r\n         
+    \"GemeentehuisGouda\",\r\n          \"HoutmansplantsoenGouda\",\r\n         
+    \"antoniusmavoxl\",\r\n          \"sacramentskerk\",\r\n          \"OudeStadhuis\",\r\n         
+    \"DeGoudsePoort\",\r\n          \"Kinderboerderij\",\r\n          \"Groenhovenbad\",\r\n         
+    \"Jodanboys\",\r\n          \"SintJanKerk\"\r\n        ]\r\n      }\r\n    }\r\n 
+    },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"30bf9f65-beaf-4df9-bdf0-c33876f30d1c\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"MuseumGouda\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\": \"52.01004817972092,
+    4.711010196401785\",\r\n        \"name\": \"Museum Gouda\",\r\n        \"item\":
+    \"marker12\",\r\n        \"scale\": 1.5,\r\n        \"questionInfo\": \"MuseumGouda-q\",\r\n       
+    \"MaxDistance\": 25\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
+    \"entityId\": \"8685d2b9-2a89-4551-b55a-4c69eb4e092c\"\r\n    },\r\n    \"rs\":
+    {\r\n      \"key\": \"MuseumGouda-q\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\": [\r\n         
+    \"Hoeveel voorwerpen zijn er te vinden in het Museum?\\r\\nA: 20.000\\r\\nB:
+    30.000\\r\\nC: 40.000\",\r\n          \"Sindws welk jaar is het museum een zelfstandige
+    stichting?\\r\\nA: 2006\\r\\nB: 2008\\r\\nC: 2010\"\r\n        ],\r\n       
+    \"anwser\": [\r\n          2,\r\n          0\r\n        ],\r\n        \"imageURL\":
+    \"https://media.insiders.nl/hgh/files/image/knipsel1_3643715676.png\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"66b98b00-57f3-4c0b-a3e8-df2de7721c20\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"GoudseHout\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\": \"52.02022329248672,
+    4.740511494026452\",\r\n        \"name\": \"Goudse Hout\",\r\n        \"item\":
+    \"marker1\",\r\n        \"scale\": 5,\r\n        \"questionInfo\": \"GoudseHout-q\",\r\n       
+    \"MaxDistance\": 25\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
+    \"entityId\": \"86943226-5131-427f-9426-26fc3f752c96\"\r\n    },\r\n    \"rs\":
+    {\r\n      \"key\": \"GoudseHout-q\",\r\n      \"type\": \"json\",\r\n      \"schemaId\":
+    null,\r\n      \"value\": {\r\n        \"question\": [\r\n          \"Welke datum
+    is het Goudse Hout in 2000 opgericht?\\r\\nA: 14 Mei\\r\\nB: 14 Juni\\r\\nC:
+    14 Juli\",\r\n          \"Wat is de naam van de stichting die over het Goudse
+    Hout gaat?\\r\\nA: Stichting Vrienden van de Goudse Hout\\r\\nB: Stichting Houds
+    Monument Behoud\\r\\nC: Stichting Natuur- en dierprotectie Zuid-Holland\"\r\n       
+    ],\r\n        \"anwser\": [\r\n          1,\r\n          0\r\n        ],\r\n       
+    \"imageURL\": \"https://www.google.com/maps/place/Goudse+Hout/@52.020428,4.7403184,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipO854bIqFVQt2WeCknzaN2ybphQZJITpCjS553Q!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipO854bIqFVQt2WeCknzaN2ybphQZJITpCjS553Q%3Dw129-h86-k-no!7i6000!8i4000!4m9!1m2!2m1!1sGoudse+Hout!3m5!1s0x0:0x60bb02445134d181!8m2!3d52.020428!4d4.7403184!15sCgtHb3Vkc2UgSG91dJIBBHBhcms?hl=en-GB#\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"e5b93095-ff14-4758-8a53-2f5d48727273\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"DeGoudseWaag\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\": \"52.012339586746315,
+    4.710872068891306\",\r\n        \"name\": \"De Goudse Waag\",\r\n        \"item\":
+    \"marker1\",\r\n        \"scale\": 5,\r\n        \"questionInfo\": \"DeGoudseWaag-q\",\r\n       
+    \"MaxDistance\": 25\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
+    \"entityId\": \"efa22efb-3143-46eb-b09d-4d16757e51b7\"\r\n    },\r\n    \"rs\":
+    {\r\n      \"key\": \"DeGoudseWaag-q\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\": [\r\n         
+    \"In welk jaar is dit historische gebouwd en ontstaan?\\r\\nA: 1583\\r\\nB: 1602\\r\\nC:
+    1668\",\r\n          \"Wie was de ontwerpen van het gebouw, ook bekent als het
+    Huis Ten Bosch?\\r\\nA: Mark Hogelanden\\r\\nB: Pieter Post\\r\\nC: Chris van
+    Dam\"\r\n        ],\r\n        \"anwser\": [\r\n          2,\r\n          1\r\n       
+    ],\r\n        \"imageURL\": \"https://lh5.googleusercontent.com/p/AF1QipOgA5CLwl3z2ih-59NLdPQKckEzuyOJnEdu6S58=w408-h310-k-no\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"e3c94dc0-4ae9-4f76-994b-f90977761465\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Antoniuscollege\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\":
+    \"52.01132930812001, 4.725954777315354\",\r\n        \"name\": \"Antoniuscollege
+    Gouda\",\r\n        \"item\": \"marker3\",\r\n        \"scale\": 1,\r\n       
+    \"questionInfo\": \"Antoniuscollege-q\",\r\n        \"MaxDistance\": 2500\r\n     
+    }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"30bd0f1e-43c9-4db7-a3bd-8c534df5cfd5\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Antoniuscollege-q\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\":
+    [\r\n          \"Welk extra vak kan je NIET kiezen als je in de brugklas zit?\\r\\nA:
+    Robotica\\r\\nB: Media & Games\\r\\nC: Art & Design\",\r\n          \"Hoeveel
+    verschillende taal zijn er te volgen op het Antoniuscollege?\\r\\nA: 6\\r\\nB:
+    7\\r\\nC: 8\"\r\n        ],\r\n        \"anwser\": [\r\n          0,\r\n         
+    2\r\n        ],\r\n        \"imageURL\": \"https://degouda.nl/wp-content/uploads/2020/06/antonius-college-gouda.jpg\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"8410a77f-dbbe-4848-84f8-490b1307429a\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"CinemaGouda\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\": \"52.018204906216454,
+    4.705787484653282\",\r\n        \"name\": \"Cinema Gouda\",\r\n        \"item\":
+    \"marker4\",\r\n        \"scale\": 0.5,\r\n        \"questionInfo\": \"CinemaGouda-q\",\r\n       
+    \"MaxDistance\": 25\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
+    \"entityId\": \"6fc1c2f3-17fe-48ff-a388-f0323c03fd8c\"\r\n    },\r\n    \"rs\":
+    {\r\n      \"key\": \"CinemaGouda-q\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\": [\r\n         
+    \"Hoeveel luxe zitplaatsen zijn er te vinden in de 6 filmzalen?\\r\\nA: 485\\r\\nB:
+    628\\r\\nC: 786\",\r\n          \"Welk van deze speciale filmgelegenheden zijn
+    NIET te vinden in Cinema Gouda?\\r\\nA: Midnight Movie\\r\\nB: Ontbijtbios\\r\\nC:
+    50+ bios\"\r\n        ],\r\n        \"anwser\": [\r\n          2,\r\n         
+    0\r\n        ],\r\n        \"imageURL\": \"https://lh5.googleusercontent.com/p/AF1QipOs9HGXoulaNt6ArnQ4lmPIMhXaCWXcW1oOOlfW=w408-h271-k-no\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"a41a313e-ceda-44d2-a467-3490fc261123\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"GroeneHartZiekenhuis\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\":
+    \"52.020942101120276, 4.706985771164647\",\r\n        \"name\": \"Groene Hart
+    Ziekenhuis\",\r\n        \"item\": \"marker6\",\r\n        \"scale\": 0.035,\r\n       
+    \"questionInfo\": \"GroeneHartZiekenhuis-q\",\r\n        \"MaxDistance\": 25\r\n     
+    }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"c959f4a3-a16e-48f9-9e72-ee7227a0c71a\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"GroeneHartZiekenhuis-q\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\":
+    [\r\n          \"Op basis van 534 beoordelingen is een cijfer gegeven aan het
+    GHZ, welk cijfer hebben zij gekregen?\\r\\nA: 7,9\\r\\nB: 8,5\\r\\nC: 9,2\",\r\n         
+    \"Er zijn ongeveer 2000 medewerkers in het GHZ, hoeveel van deze zijn vrijwilligers?\\r\\nA:
+    159\\r\\nB: 278\\r\\nC: 398\"\r\n        ],\r\n        \"anwser\": [\r\n         
+    1,\r\n          0\r\n        ],\r\n        \"imageURL\": \"https://media.indebuurt.nl/gouda/2018/11/19113122/groene-hart-ziekenhuis-bleulandweg.jpg\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"5e0338ec-26ab-4153-b258-4f444907079e\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"SkateparkDeSluis\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\":
+    \"51.99997347971962, 4.695360657225688\",\r\n        \"name\": \"Skatepark De
+    Sluis Gouda\",\r\n        \"item\": \"marker15\",\r\n        \"scale\": 1,\r\n       
+    \"questionInfo\": \"SkateparkDeSluis-q\",\r\n        \"MaxDistance\": 25\r\n     
+    }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"d528c6ba-17f8-43dd-a084-4063e04d7d05\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"SkateparkDeSluis-q\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\":
+    [\r\n          \"In welk jaar was het skatepark gerenoveerd?\\r\\nA: 2012 \\r\\nB:
+    2013\\r\\nC: 2014\",\r\n          \"Hoeveel meter is het skatepark bij zijn renovatie
+    verschoven?\\r\\nA: ongeveer 200 meter\\r\\nB: ongeveer 225 meter\\r\\nC: ongeveer
+    250 meter\"\r\n        ],\r\n        \"anwser\": [\r\n          1,\r\n         
+    2\r\n        ],\r\n        \"imageURL\": \"https://lh3.googleusercontent.com/p/AF1QipMtTes4ISDsKlnuAqEfoc5scoGX-L0gl3g0Vcwu=w600-k\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"6beec033-893e-4056-a885-708e77d4edaa\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Ijsselhof\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\": \"52.009263947062095,
+    4.726948731475435\",\r\n        \"name\": \"Natuurbegraafplaats en Begraafplaats
+    IJsselhof\",\r\n        \"item\": \"marker9\",\r\n        \"scale\": 0.2,\r\n       
+    \"questionInfo\": \"Ijsselhof-q\",\r\n        \"MaxDistance\": 25\r\n      }\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"24d95e9a-6873-4996-9618-367db31a4f9b\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Ijsselhof-q\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\": [\r\n         
+    \"Wanneer is de begraafplaats gesticht?\\r\\nA: 1940-1941\\r\\nB: 1949-1950\\r\\nC:
+    1958-1959\",\r\n          \"Hoe groot is deze begraafplaats?\\r\\nA: ca. 37.000
+    vierkante meter\\r\\nB: 41.000 vierkante meter\\r\\nC: ca. 44.000 vierkante meter\"\r\n       
+    ],\r\n        \"anwser\": [\r\n          1,\r\n          0\r\n        ],\r\n       
+    \"imageURL\": \"https://lh5.googleusercontent.com/p/AF1QipNd-bUM0GfgRerknpO1-fej9iop2tDGb1ZZXvFK=w408-h306-k-no\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"61815091-be1d-4393-8513-bcb0124fbba9\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"GemeentehuisGouda\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\":
+    \"52.01807477243492, 4.707208140038264\",\r\n        \"name\": \"Het nieuwe stadhuis\",\r\n       
+    \"item\": \"marker1\",\r\n        \"scale\": 5,\r\n        \"questionInfo\":
+    \"GemeentehuisGouda-q\",\r\n        \"MaxDistance\": 25\r\n      }\r\n    }\r\n 
+    },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"69c3244b-45e7-4467-a39d-1badeb2fe983\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"GemeentehuisGouda-q\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\":
+    [\r\n          \"Welk van de onderstaande 3 dingen kan je niet verkrijgen bij
+    het gemeentehuis?\\r\\nA: Verblijfsvergunning\\r\\nB: ID-kaart\\r\\nC: Rijbewijs\",\r\n         
+    \"Uit welk jaardateerd het nieuwe gemeentehuis?\\r\\nA: 2010\\r\\nB: 2011\\r\\nC:
+    2012\"\r\n        ],\r\n        \"anwser\": [\r\n          0,\r\n          2\r\n       
+    ],\r\n        \"imageURL\": \"https://upload.wikimedia.org/wikipedia/commons/3/32/Huis_van_de_stad_Gouda.jpg\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"7e2a07aa-70d6-401b-9473-f9271c1d4a30\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"HoutmansplantsoenGouda\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\":
+    \"52.009878122385146, 4.715142211760064\",\r\n        \"name\": \"Houtmansplantsoen\",\r\n       
+    \"item\": \"marker8\",\r\n        \"scale\": 5,\r\n        \"questionInfo\":
+    \"HoutmansplantsoenGouda-q\",\r\n        \"MaxDistance\": 25\r\n      }\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"c688453a-1065-4527-b930-ae90b6962e20\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"HoutmansplantsoenGouda-q\",\r\n     
+    \"type\": \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n       
+    \"question\": [\r\n          \"Uit welk jaar dateert dit stadspark?\\r\\nA: 1830\\r\\nB:
+    1840\\r\\nC: 1850\",\r\n          \"Naar welke broers is het stadspark vernoemd?\\r\\nA:
+    De broers Roderik en Jochem de Houten\\r\\nB: De broers Juac en Hendrik de Houten\\r\\nC:
+    De broers Cornelis en Frederik de Houten\"\r\n        ],\r\n        \"anwser\":
+    [\r\n          0,\r\n          2\r\n        ],\r\n        \"imageURL\": \"https://upload.wikimedia.org/wikipedia/commons/9/99/Houtmansplantsoen_Gouda.jpg\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"6ddcde0a-7d6e-405c-aa7a-3aa9a9b008a3\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"antoniusmavoxl\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\":
+    \"52.02671854252122, 4.7130344598547085\",\r\n        \"name\": \"antoniusmavoxl\",\r\n       
+    \"item\": \"marker3\",\r\n        \"scale\": 1,\r\n        \"questionInfo\":
+    \"antoniusmavoxl-q\",\r\n        \"MaxDistance\": 25\r\n      }\r\n    }\r\n 
+    },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"bf680633-1797-473a-8439-2285eb177ced\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"antoniusmavoxl-q\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\":
+    [\r\n          \"Wat was de voormalige naam van het gebouw?\\r\\nA: De Meander\\r\\nB:
+    Antonius vmbo XL\\r\\nC: Sint Justasius\",\r\n          \"Hoe lang duren de lesuren
+    op het AMXL?\\r\\nA: 40\\r\\nB: 60\\r\\nC: 80\"\r\n        ],\r\n        \"anwser\":
+    [\r\n          0,\r\n          2\r\n        ],\r\n        \"imageURL\": \"https://www.antoniusmavoxl.nl/media/images/logo%20en%20icon/logo%20AXL%20blokmagenta%20xlblauw%20zonder%20uitroep.png\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"b014cc09-0f37-4adf-97e8-d3e4d050180e\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"sacramentskerk\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\":
+    \"52.00522026850579, 4.700254256304485\",\r\n        \"name\": \"sacramentskerk
+    gouda\",\r\n        \"item\": \"marker13\",\r\n        \"scale\": 0.75,\r\n       
+    \"questionInfo\": \"sacramentskerk-q\",\r\n        \"MaxDistance\": 25\r\n     
+    }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"58d97478-394e-43a1-90b9-43efd6bbc08d\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"sacramentskerk-q\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\":
+    [\r\n          \"Waneer is de sacramentskerk gebouwt?\\r\\nA: 1843-1844\\r\\nB:
+    1867-1868\\r\\nC: 1931-1932\",\r\n          \"Van welk materiaal is de kerk gebouwt?\\r\\nA:
+    Graniet\\r\\nB: Bakstenen\\r\\nC: Amtraciet\"\r\n        ],\r\n        \"anwser\":
+    [\r\n          2,\r\n          1\r\n        ],\r\n        \"imageURL\": \"https://upload.wikimedia.org/wikipedia/commons/1/13/Jacob_van_Lennepkade_3%2C_Gouda._Sacramentskerk.jpg\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"7d25a4e2-cb96-485a-8224-689bbf7f289c\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"OudeStadhuis\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\": \"52.01167857972117,
+    4.710493569466352\",\r\n        \"name\": \"Oude Stadhuis\",\r\n        \"item\":
+    \"marker1\",\r\n        \"scale\": 5,\r\n        \"questionInfo\": \"OudeStadhuis-q\",\r\n       
+    \"MaxDistance\": 25\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
+    \"entityId\": \"598eaca7-a6d8-4368-b771-c28b17e80d2d\"\r\n    },\r\n    \"rs\":
+    {\r\n      \"key\": \"OudeStadhuis-q\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\": [\r\n         
+    \"Wanneer werd de bouw van het oude stadhuis begonnen?\\r\\nA: 1395\\r\\nB: 1448\\r\\nC:
+    1497\",\r\n          \"Hoelang heeft de bouw van het oude stadhuis geduurd?\\r\\nA:
+    4 jaar\\r\\nB: 11 jaar\\r\\nC: 56 jaar\"\r\n        ],\r\n        \"anwser\":
+    [\r\n          1,\r\n          1\r\n        ],\r\n        \"imageURL\": \"https://commons.wikimedia.org/wiki/File:Gouda_Stadhuis_during_sunny_day_2017.jpg\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"315cc1b7-166a-4350-9708-07c87b23f0cb\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"DeGoudsePoort\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\": \"52.02157349820327,
+    4.680549192520321\",\r\n        \"name\": \"De Goudse Poort\",\r\n        \"item\":
+    \"marker5\",\r\n        \"scale\": 4,\r\n        \"questionInfo\": \"DeGoudsePoort-q\",\r\n       
+    \"MaxDistance\": 25\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
+    \"entityId\": \"26db8ccc-9240-4965-8e26-5f975d6b02ed\"\r\n    },\r\n    \"rs\":
+    {\r\n      \"key\": \"DeGoudsePoort-q\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\": [\r\n         
+    \"Hoeveel bedrijven zijn er gevestigd in de goudse poort?\\r\\nA: 93 bedrijven\\r\\nB:
+    156 bedrijven\\r\\nC: 295 bedrijven\",\r\n          \"Hoe groot is de Goudse
+    poort ongeveer?\\r\\nA: 52 hectare\\r\\nB: 125  hectare\\r\\nC: 266 hectare\"\r\n       
+    ],\r\n        \"anwser\": [\r\n          2,\r\n          1\r\n        ],\r\n       
+    \"imageURL\": \"https://goudsepoort.nl/wp-content/uploads/2020/09/goudse-poort-header-4.jpg\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"ae0e677b-ac57-422e-a84c-3120a1dc8d81\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Kinderboerderij\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\":
+    \"52.03216178148151, 4.696095056096701\",\r\n        \"name\": \"Kinderboerderij:
+    De Goudse Hofsteden\",\r\n        \"item\": \"marker11\",\r\n        \"scale\":
+    5,\r\n        \"questionInfo\": \"Kinderboerderij-q\",\r\n        \"MaxDistance\":
+    25\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
+    \"4d177baf-3e21-43f8-80aa-7b8e97a1ec2c\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"key\": \"Kinderboerderij-q\",\r\n      \"type\": \"json\",\r\n      \"schemaId\":
+    null,\r\n      \"value\": {\r\n        \"question\": [\r\n          \"Hoeveel
+    dierensoorten zijn er in de goudse hofsteden (de kinderboerderij)?\\r\\nA: 12
+    soorten\\r\\nB: 27 soorten\\r\\nC: 36 soorten\",\r\n          \"Sinds waneer
+    bestaand de kinderboederij?\\r\\nA: 1981\\r\\nB: 1998\\r\\nC: 2007\"\r\n       
+    ],\r\n        \"anwser\": [\r\n          1,\r\n          0\r\n        ],\r\n       
+    \"imageURL\": \"https://www.kinderboerderijgouda.nl/uploads/algemeen/logo-kinderboerdeij-gouda-goudse-hofsteden.png\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"4d4d76bd-ad1c-4d02-a17b-9df44354fc7e\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Groenhovenbad\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\": \"52.02372068246961,
+    4.689357840702826\",\r\n        \"name\": \"Groenhovenbad Gouda\",\r\n       
+    \"item\": \"marker7\",\r\n        \"scale\": 0.4,\r\n        \"questionInfo\":
+    \"Groenhovenbad-q\",\r\n        \"MaxDistance\": 25\r\n      }\r\n    }\r\n 
+    },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"a03e1adc-5311-4f4b-8c82-f6052a85bb77\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Groenhovenbad-q\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\":
+    [\r\n          \"Hoeveel kost het om een kinderfeestje te geven in het Groenhovenbad?\\r\\nA:
+    \u20AC23,49\\r\\nB: \u20AC44,99\\r\\nC: \u20AC8,59\",\r\n          \"Wanneer
+    is het Groenhovenbad opgeleverd?\\r\\nA: 2012\\r\\nB: 2013\\r\\nC: 2014\"\r\n       
+    ],\r\n        \"anwser\": [\r\n          2,\r\n          1\r\n        ],\r\n       
+    \"imageURL\": \"https://lh5.googleusercontent.com/p/AF1QipNivr17UZwAEY-Cbk0AGU--YgohQb1aMCQ6-g0Y=w408-h306-k-no\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"f6aa5925-4c2e-4e32-aa94-ae47c0a48bb7\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Jodanboys\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\": \"52.01019792570325,
+    4.734633140750219\",\r\n        \"name\": \"Jodan boys\",\r\n        \"item\":
+    \"marker10\",\r\n        \"scale\": 0.2,\r\n        \"questionInfo\": \"Jodanboys-q\",\r\n       
+    \"MaxDistance\": 25\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
+    \"entityId\": \"b89382aa-579a-4161-8d45-a1f8ec9d579c\"\r\n    },\r\n    \"rs\":
+    {\r\n      \"key\": \"Jodanboys-q\",\r\n      \"type\": \"json\",\r\n      \"schemaId\":
+    null,\r\n      \"value\": {\r\n        \"question\": [\r\n          \"Hoeveel
+    sponsoren heeft Jodan boys?\\r\\nA: 32\\r\\nB: 127\\r\\nC: 66\",\r\n         
+    \"Uit hoeveel leden bestaat de top van Jodan boys?\\r\\nA: 3\\r\\nB: 4\\r\\nC:
+    6\"\r\n        ],\r\n        \"anwser\": [\r\n          2,\r\n          1\r\n       
+    ],\r\n        \"imageURL\": \"https://degouda.nl/wp-content/uploads/2017/03/jodanboys.jpg\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"90ee057e-fec0-405f-a994-f939c69b79ed\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"SintJanKerk\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\": \"52.00523677990423,
+    4.700297171777901\",\r\n        \"name\": \"Sint Jan Kerk\",\r\n        \"item\":
+    \"marker14\",\r\n        \"scale\": 0.75,\r\n        \"questionInfo\": \"SintJanKerk-q\",\r\n       
+    \"MaxDistance\": 25\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
+    \"entityId\": \"a4bca056-be9e-4005-93ed-01ab7ada2b4d\"\r\n    },\r\n    \"rs\":
+    {\r\n      \"key\": \"SintJanKerk-q\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\": [\r\n         
+    \"Hoeveel glas in lood ramen zijn er in de kerk?\\r\\nA: 27\\r\\nB: 56\\r\\nC:
+    72\",\r\n          \"In welke stijl is de kerk gebouwd?\\r\\nA: Gotisch\\r\\nB:
+    Romaans\\r\\nC: Barokarchi \"\r\n        ],\r\n        \"anwser\": [\r\n         
+    2,\r\n          1\r\n        ],\r\n        \"imageURL\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/St.Janskerk.jpg/266px-St.Janskerk.jpg\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"fe31de4e-4ecf-41e0-9996-89bcbdae5aeb\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"StationGouda\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\": \"52.01815804350351,
+    4.706574755021642\",\r\n        \"name\": \"Station Gouda\",\r\n        \"item\":
+    \"marker2\",\r\n        \"scale\": 4,\r\n        \"questionInfo\": \"StationGouda-q\",\r\n       
+    \"MaxDistance\": 25\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
+    \"entityId\": \"c12ede92-cc66-4ae9-baaa-323f865f2276\"\r\n    },\r\n    \"rs\":
+    {\r\n      \"key\": \"StationGouda-q\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\": [\r\n         
+    \"Wanneer was dit treinstation geopend?\\r\\nA: 1855\\r\\nB: 1900\\r\\nC: 1948\",\r\n         
+    \"Hoe vaak per dag vertrekt er een intercity van Gouda naar Utrecht?\\r\\nA:
+    24 keer per dag\\r\\nB: 48 keer per dag\\r\\nC: 72 keer per dag\"\r\n       
+    ],\r\n        \"anwser\": [\r\n          0,\r\n          1\r\n        ],\r\n       
+    \"imageURL\": \"https://lh5.googleusercontent.com/p/AF1QipM8feuXkhj55saAI5NFCQiGU6XiR_o19ogKCAVC=w408-h271-k-no\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  }\r\n]"
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"f36d68fe-9f81-4920-a61a-c29cf24cbbd4\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"locationsInfo\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"enabled\": true,\r\n       
+    \"PlayerScale\": 0.7,\r\n        \"Zoom\": 16,\r\n        \"StandardSensitivity\":
+    100,\r\n        \"locations\": [\r\n          \"MuseumGouda\",\r\n          \"GoudseHout\",\r\n         
+    \"DeGoudseWaag\",\r\n          \"Antoniuscollege\",\r\n          \"CinemaGouda\",\r\n         
+    \"GroeneHartZiekenhuis\",\r\n          \"SkateparkDeSluis\",\r\n          \"Ijsselhof\",\r\n         
+    \"GemeentehuisGouda\",\r\n          \"HoutmansplantsoenGouda\",\r\n         
+    \"antoniusmavoxl\",\r\n          \"sacramentskerk\",\r\n          \"OudeStadhuis\",\r\n         
+    \"DeGoudsePoort\",\r\n          \"Kinderboerderij\",\r\n          \"Groenhovenbad\",\r\n         
+    \"Jodanboys\",\r\n          \"SintJanKerk\"\r\n        ]\r\n      }\r\n    }\r\n 
+    },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"30bf9f65-beaf-4df9-bdf0-c33876f30d1c\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"MuseumGouda\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\": \"52.01004817972092,
+    4.711010196401785\",\r\n        \"name\": \"Museum Gouda\",\r\n        \"item\":
+    \"marker12\",\r\n        \"scale\": 1.5,\r\n        \"questionInfo\": \"MuseumGouda-q\",\r\n       
+    \"MaxDistance\": 25\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
+    \"entityId\": \"8685d2b9-2a89-4551-b55a-4c69eb4e092c\"\r\n    },\r\n    \"rs\":
+    {\r\n      \"key\": \"MuseumGouda-q\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\": [\r\n         
+    \"Hoeveel voorwerpen zijn er te vinden in het Museum?\\r\\nA: 20.000\\r\\nB:
+    30.000\\r\\nC: 40.000\",\r\n          \"Sindws welk jaar is het museum een zelfstandige
+    stichting?\\r\\nA: 2006\\r\\nB: 2008\\r\\nC: 2010\"\r\n        ],\r\n       
+    \"anwser\": [\r\n          2,\r\n          0\r\n        ],\r\n        \"imageURL\":
+    \"https://media.insiders.nl/hgh/files/image/knipsel1_3643715676.png\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"66b98b00-57f3-4c0b-a3e8-df2de7721c20\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"GoudseHout\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\": \"52.02022329248672,
+    4.740511494026452\",\r\n        \"name\": \"Goudse Hout\",\r\n        \"item\":
+    \"marker1\",\r\n        \"scale\": 5,\r\n        \"questionInfo\": \"GoudseHout-q\",\r\n       
+    \"MaxDistance\": 25\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
+    \"entityId\": \"86943226-5131-427f-9426-26fc3f752c96\"\r\n    },\r\n    \"rs\":
+    {\r\n      \"key\": \"GoudseHout-q\",\r\n      \"type\": \"json\",\r\n      \"schemaId\":
+    null,\r\n      \"value\": {\r\n        \"question\": [\r\n          \"Welke datum
+    is het Goudse Hout in 2000 opgericht?\\r\\nA: 14 Mei\\r\\nB: 14 Juni\\r\\nC:
+    14 Juli\",\r\n          \"Wat is de naam van de stichting die over het Goudse
+    Hout gaat?\\r\\nA: Stichting Vrienden van de Goudse Hout\\r\\nB: Stichting Houds
+    Monument Behoud\\r\\nC: Stichting Natuur- en dierprotectie Zuid-Holland\"\r\n       
+    ],\r\n        \"anwser\": [\r\n          1,\r\n          0\r\n        ],\r\n       
+    \"imageURL\": \"https://www.google.com/maps/place/Goudse+Hout/@52.020428,4.7403184,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipO854bIqFVQt2WeCknzaN2ybphQZJITpCjS553Q!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipO854bIqFVQt2WeCknzaN2ybphQZJITpCjS553Q%3Dw129-h86-k-no!7i6000!8i4000!4m9!1m2!2m1!1sGoudse+Hout!3m5!1s0x0:0x60bb02445134d181!8m2!3d52.020428!4d4.7403184!15sCgtHb3Vkc2UgSG91dJIBBHBhcms?hl=en-GB#\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"e5b93095-ff14-4758-8a53-2f5d48727273\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"DeGoudseWaag\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\": \"52.012339586746315,
+    4.710872068891306\",\r\n        \"name\": \"De Goudse Waag\",\r\n        \"item\":
+    \"marker1\",\r\n        \"scale\": 5,\r\n        \"questionInfo\": \"DeGoudseWaag-q\",\r\n       
+    \"MaxDistance\": 25\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
+    \"entityId\": \"efa22efb-3143-46eb-b09d-4d16757e51b7\"\r\n    },\r\n    \"rs\":
+    {\r\n      \"key\": \"DeGoudseWaag-q\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\": [\r\n         
+    \"In welk jaar is dit historische gebouwd en ontstaan?\\r\\nA: 1583\\r\\nB: 1602\\r\\nC:
+    1668\",\r\n          \"Wie was de ontwerpen van het gebouw, ook bekent als het
+    Huis Ten Bosch?\\r\\nA: Mark Hogelanden\\r\\nB: Pieter Post\\r\\nC: Chris van
+    Dam\"\r\n        ],\r\n        \"anwser\": [\r\n          2,\r\n          1\r\n       
+    ],\r\n        \"imageURL\": \"https://lh5.googleusercontent.com/p/AF1QipOgA5CLwl3z2ih-59NLdPQKckEzuyOJnEdu6S58=w408-h310-k-no\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"e3c94dc0-4ae9-4f76-994b-f90977761465\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Antoniuscollege\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\":
+    \"52.01132930812001, 4.725954777315354\",\r\n        \"name\": \"Antoniuscollege
+    Gouda\",\r\n        \"item\": \"marker3\",\r\n        \"scale\": 1,\r\n       
+    \"questionInfo\": \"Antoniuscollege-q\",\r\n        \"MaxDistance\": 2500\r\n     
+    }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"30bd0f1e-43c9-4db7-a3bd-8c534df5cfd5\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Antoniuscollege-q\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\":
+    [\r\n          \"Welk extra vak kan je NIET kiezen als je in de brugklas zit?\\r\\nA:
+    Robotica\\r\\nB: Media & Games\\r\\nC: Art & Design\",\r\n          \"Hoeveel
+    verschillende taal zijn er te volgen op het Antoniuscollege?\\r\\nA: 6\\r\\nB:
+    7\\r\\nC: 8\"\r\n        ],\r\n        \"anwser\": [\r\n          0,\r\n         
+    2\r\n        ],\r\n        \"imageURL\": \"https://degouda.nl/wp-content/uploads/2020/06/antonius-college-gouda.jpg\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"8410a77f-dbbe-4848-84f8-490b1307429a\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"CinemaGouda\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\": \"52.018204906216454,
+    4.705787484653282\",\r\n        \"name\": \"Cinema Gouda\",\r\n        \"item\":
+    \"marker4\",\r\n        \"scale\": 0.5,\r\n        \"questionInfo\": \"CinemaGouda-q\",\r\n       
+    \"MaxDistance\": 25\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
+    \"entityId\": \"6fc1c2f3-17fe-48ff-a388-f0323c03fd8c\"\r\n    },\r\n    \"rs\":
+    {\r\n      \"key\": \"CinemaGouda-q\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\": [\r\n         
+    \"Hoeveel luxe zitplaatsen zijn er te vinden in de 6 filmzalen?\\r\\nA: 485\\r\\nB:
+    628\\r\\nC: 786\",\r\n          \"Welk van deze speciale filmgelegenheden zijn
+    NIET te vinden in Cinema Gouda?\\r\\nA: Midnight Movie\\r\\nB: Ontbijtbios\\r\\nC:
+    50+ bios\"\r\n        ],\r\n        \"anwser\": [\r\n          2,\r\n         
+    0\r\n        ],\r\n        \"imageURL\": \"https://lh5.googleusercontent.com/p/AF1QipOs9HGXoulaNt6ArnQ4lmPIMhXaCWXcW1oOOlfW=w408-h271-k-no\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"a41a313e-ceda-44d2-a467-3490fc261123\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"GroeneHartZiekenhuis\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\":
+    \"52.020942101120276, 4.706985771164647\",\r\n        \"name\": \"Groene Hart
+    Ziekenhuis\",\r\n        \"item\": \"marker6\",\r\n        \"scale\": 0.035,\r\n       
+    \"questionInfo\": \"GroeneHartZiekenhuis-q\",\r\n        \"MaxDistance\": 25\r\n     
+    }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"c959f4a3-a16e-48f9-9e72-ee7227a0c71a\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"GroeneHartZiekenhuis-q\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\":
+    [\r\n          \"Op basis van 534 beoordelingen is een cijfer gegeven aan het
+    GHZ, welk cijfer hebben zij gekregen?\\r\\nA: 7,9\\r\\nB: 8,5\\r\\nC: 9,2\",\r\n         
+    \"Er zijn ongeveer 2000 medewerkers in het GHZ, hoeveel van deze zijn vrijwilligers?\\r\\nA:
+    159\\r\\nB: 278\\r\\nC: 398\"\r\n        ],\r\n        \"anwser\": [\r\n         
+    1,\r\n          0\r\n        ],\r\n        \"imageURL\": \"https://media.indebuurt.nl/gouda/2018/11/19113122/groene-hart-ziekenhuis-bleulandweg.jpg\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"5e0338ec-26ab-4153-b258-4f444907079e\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"SkateparkDeSluis\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\":
+    \"51.99997347971962, 4.695360657225688\",\r\n        \"name\": \"Skatepark De
+    Sluis Gouda\",\r\n        \"item\": \"marker15\",\r\n        \"scale\": 1,\r\n       
+    \"questionInfo\": \"SkateparkDeSluis-q\",\r\n        \"MaxDistance\": 25\r\n     
+    }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"d528c6ba-17f8-43dd-a084-4063e04d7d05\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"SkateparkDeSluis-q\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\":
+    [\r\n          \"In welk jaar was het skatepark gerenoveerd?\\r\\nA: 2012 \\r\\nB:
+    2013\\r\\nC: 2014\",\r\n          \"Hoeveel meter is het skatepark bij zijn renovatie
+    verschoven?\\r\\nA: ongeveer 200 meter\\r\\nB: ongeveer 225 meter\\r\\nC: ongeveer
+    250 meter\"\r\n        ],\r\n        \"anwser\": [\r\n          1,\r\n         
+    2\r\n        ],\r\n        \"imageURL\": \"https://lh3.googleusercontent.com/p/AF1QipMtTes4ISDsKlnuAqEfoc5scoGX-L0gl3g0Vcwu=w600-k\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"6beec033-893e-4056-a885-708e77d4edaa\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Ijsselhof\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\": \"52.009263947062095,
+    4.726948731475435\",\r\n        \"name\": \"Natuurbegraafplaats en Begraafplaats
+    IJsselhof\",\r\n        \"item\": \"marker9\",\r\n        \"scale\": 0.2,\r\n       
+    \"questionInfo\": \"Ijsselhof-q\",\r\n        \"MaxDistance\": 25\r\n      }\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"24d95e9a-6873-4996-9618-367db31a4f9b\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Ijsselhof-q\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\": [\r\n         
+    \"Wanneer is de begraafplaats gesticht?\\r\\nA: 1940-1941\\r\\nB: 1949-1950\\r\\nC:
+    1958-1959\",\r\n          \"Hoe groot is deze begraafplaats?\\r\\nA: ca. 37.000
+    vierkante meter\\r\\nB: 41.000 vierkante meter\\r\\nC: ca. 44.000 vierkante meter\"\r\n       
+    ],\r\n        \"anwser\": [\r\n          1,\r\n          0\r\n        ],\r\n       
+    \"imageURL\": \"https://lh5.googleusercontent.com/p/AF1QipNd-bUM0GfgRerknpO1-fej9iop2tDGb1ZZXvFK=w408-h306-k-no\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"61815091-be1d-4393-8513-bcb0124fbba9\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"GemeentehuisGouda\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\":
+    \"52.01807477243492, 4.707208140038264\",\r\n        \"name\": \"Het nieuwe stadhuis\",\r\n       
+    \"item\": \"marker1\",\r\n        \"scale\": 5,\r\n        \"questionInfo\":
+    \"GemeentehuisGouda-q\",\r\n        \"MaxDistance\": 25\r\n      }\r\n    }\r\n 
+    },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"69c3244b-45e7-4467-a39d-1badeb2fe983\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"GemeentehuisGouda-q\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\":
+    [\r\n          \"Welk van de onderstaande 3 dingen kan je niet verkrijgen bij
+    het gemeentehuis?\\r\\nA: Verblijfsvergunning\\r\\nB: ID-kaart\\r\\nC: Rijbewijs\",\r\n         
+    \"Uit welk jaardateerd het nieuwe gemeentehuis?\\r\\nA: 2010\\r\\nB: 2011\\r\\nC:
+    2012\"\r\n        ],\r\n        \"anwser\": [\r\n          0,\r\n          2\r\n       
+    ],\r\n        \"imageURL\": \"https://upload.wikimedia.org/wikipedia/commons/3/32/Huis_van_de_stad_Gouda.jpg\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"7e2a07aa-70d6-401b-9473-f9271c1d4a30\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"HoutmansplantsoenGouda\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\":
+    \"52.009878122385146, 4.715142211760064\",\r\n        \"name\": \"Houtmansplantsoen\",\r\n       
+    \"item\": \"marker8\",\r\n        \"scale\": 5,\r\n        \"questionInfo\":
+    \"HoutmansplantsoenGouda-q\",\r\n        \"MaxDistance\": 25\r\n      }\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"c688453a-1065-4527-b930-ae90b6962e20\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"HoutmansplantsoenGouda-q\",\r\n     
+    \"type\": \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n       
+    \"question\": [\r\n          \"Uit welk jaar dateert dit stadspark?\\r\\nA: 1830\\r\\nB:
+    1840\\r\\nC: 1850\",\r\n          \"Naar welke broers is het stadspark vernoemd?\\r\\nA:
+    De broers Roderik en Jochem de Houten\\r\\nB: De broers Juac en Hendrik de Houten\\r\\nC:
+    De broers Cornelis en Frederik de Houten\"\r\n        ],\r\n        \"anwser\":
+    [\r\n          0,\r\n          2\r\n        ],\r\n        \"imageURL\": \"https://upload.wikimedia.org/wikipedia/commons/9/99/Houtmansplantsoen_Gouda.jpg\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"6ddcde0a-7d6e-405c-aa7a-3aa9a9b008a3\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"antoniusmavoxl\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\":
+    \"52.02671854252122, 4.7130344598547085\",\r\n        \"name\": \"antoniusmavoxl\",\r\n       
+    \"item\": \"marker3\",\r\n        \"scale\": 1,\r\n        \"questionInfo\":
+    \"antoniusmavoxl-q\",\r\n        \"MaxDistance\": 25\r\n      }\r\n    }\r\n 
+    },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"bf680633-1797-473a-8439-2285eb177ced\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"antoniusmavoxl-q\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\":
+    [\r\n          \"Wat was de voormalige naam van het gebouw?\\r\\nA: De Meander\\r\\nB:
+    Antonius vmbo XL\\r\\nC: Sint Justasius\",\r\n          \"Hoe lang duren de lesuren
+    op het AMXL?\\r\\nA: 40\\r\\nB: 60\\r\\nC: 80\"\r\n        ],\r\n        \"anwser\":
+    [\r\n          0,\r\n          2\r\n        ],\r\n        \"imageURL\": \"https://www.antoniusmavoxl.nl/media/images/logo%20en%20icon/logo%20AXL%20blokmagenta%20xlblauw%20zonder%20uitroep.png\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"b014cc09-0f37-4adf-97e8-d3e4d050180e\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"sacramentskerk\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\":
+    \"52.00522026850579, 4.700254256304485\",\r\n        \"name\": \"sacramentskerk
+    gouda\",\r\n        \"item\": \"marker13\",\r\n        \"scale\": 0.75,\r\n       
+    \"questionInfo\": \"sacramentskerk-q\",\r\n        \"MaxDistance\": 25\r\n     
+    }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"58d97478-394e-43a1-90b9-43efd6bbc08d\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"sacramentskerk-q\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\":
+    [\r\n          \"Waneer is de sacramentskerk gebouwt?\\r\\nA: 1843-1844\\r\\nB:
+    1867-1868\\r\\nC: 1931-1932\",\r\n          \"Van welk materiaal is de kerk gebouwt?\\r\\nA:
+    Graniet\\r\\nB: Bakstenen\\r\\nC: Amtraciet\"\r\n        ],\r\n        \"anwser\":
+    [\r\n          2,\r\n          1\r\n        ],\r\n        \"imageURL\": \"https://upload.wikimedia.org/wikipedia/commons/1/13/Jacob_van_Lennepkade_3%2C_Gouda._Sacramentskerk.jpg\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"7d25a4e2-cb96-485a-8224-689bbf7f289c\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"OudeStadhuis\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\": \"52.01167857972117,
+    4.710493569466352\",\r\n        \"name\": \"Oude Stadhuis\",\r\n        \"item\":
+    \"marker1\",\r\n        \"scale\": 5,\r\n        \"questionInfo\": \"OudeStadhuis-q\",\r\n       
+    \"MaxDistance\": 25\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
+    \"entityId\": \"598eaca7-a6d8-4368-b771-c28b17e80d2d\"\r\n    },\r\n    \"rs\":
+    {\r\n      \"key\": \"OudeStadhuis-q\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\": [\r\n         
+    \"Wanneer werd de bouw van het oude stadhuis begonnen?\\r\\nA: 1395\\r\\nB: 1448\\r\\nC:
+    1497\",\r\n          \"Hoelang heeft de bouw van het oude stadhuis geduurd?\\r\\nA:
+    4 jaar\\r\\nB: 11 jaar\\r\\nC: 56 jaar\"\r\n        ],\r\n        \"anwser\":
+    [\r\n          1,\r\n          1\r\n        ],\r\n        \"imageURL\": \"https://commons.wikimedia.org/wiki/File:Gouda_Stadhuis_during_sunny_day_2017.jpg\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"315cc1b7-166a-4350-9708-07c87b23f0cb\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"DeGoudsePoort\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\": \"52.02157349820327,
+    4.680549192520321\",\r\n        \"name\": \"De Goudse Poort\",\r\n        \"item\":
+    \"marker5\",\r\n        \"scale\": 4,\r\n        \"questionInfo\": \"DeGoudsePoort-q\",\r\n       
+    \"MaxDistance\": 25\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
+    \"entityId\": \"26db8ccc-9240-4965-8e26-5f975d6b02ed\"\r\n    },\r\n    \"rs\":
+    {\r\n      \"key\": \"DeGoudsePoort-q\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\": [\r\n         
+    \"Hoeveel bedrijven zijn er gevestigd in de goudse poort?\\r\\nA: 93 bedrijven\\r\\nB:
+    156 bedrijven\\r\\nC: 295 bedrijven\",\r\n          \"Hoe groot is de Goudse
+    poort ongeveer?\\r\\nA: 52 hectare\\r\\nB: 125  hectare\\r\\nC: 266 hectare\"\r\n       
+    ],\r\n        \"anwser\": [\r\n          2,\r\n          1\r\n        ],\r\n       
+    \"imageURL\": \"https://goudsepoort.nl/wp-content/uploads/2020/09/goudse-poort-header-4.jpg\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"ae0e677b-ac57-422e-a84c-3120a1dc8d81\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Kinderboerderij\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\":
+    \"52.03216178148151, 4.696095056096701\",\r\n        \"name\": \"Kinderboerderij:
+    De Goudse Hofsteden\",\r\n        \"item\": \"marker11\",\r\n        \"scale\":
+    5,\r\n        \"questionInfo\": \"Kinderboerderij-q\",\r\n        \"MaxDistance\":
+    25\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
+    \"4d177baf-3e21-43f8-80aa-7b8e97a1ec2c\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"key\": \"Kinderboerderij-q\",\r\n      \"type\": \"json\",\r\n      \"schemaId\":
+    null,\r\n      \"value\": {\r\n        \"question\": [\r\n          \"Hoeveel
+    dierensoorten zijn er in de goudse hofsteden (de kinderboerderij)?\\r\\nA: 12
+    soorten\\r\\nB: 27 soorten\\r\\nC: 36 soorten\",\r\n          \"Sinds waneer
+    bestaand de kinderboederij?\\r\\nA: 1981\\r\\nB: 1998\\r\\nC: 2007\"\r\n       
+    ],\r\n        \"anwser\": [\r\n          1,\r\n          0\r\n        ],\r\n       
+    \"imageURL\": \"https://www.kinderboerderijgouda.nl/uploads/algemeen/logo-kinderboerdeij-gouda-goudse-hofsteden.png\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"4d4d76bd-ad1c-4d02-a17b-9df44354fc7e\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Groenhovenbad\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\": \"52.02372068246961,
+    4.689357840702826\",\r\n        \"name\": \"Groenhovenbad Gouda\",\r\n       
+    \"item\": \"marker7\",\r\n        \"scale\": 0.4,\r\n        \"questionInfo\":
+    \"Groenhovenbad-q\",\r\n        \"MaxDistance\": 25\r\n      }\r\n    }\r\n 
+    },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"a03e1adc-5311-4f4b-8c82-f6052a85bb77\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Groenhovenbad-q\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\":
+    [\r\n          \"Hoeveel kost het om een kinderfeestje te geven in het Groenhovenbad?\\r\\nA:
+    \u20AC23,49\\r\\nB: \u20AC44,99\\r\\nC: \u20AC8,59\",\r\n          \"Wanneer
+    is het Groenhovenbad opgeleverd?\\r\\nA: 2012\\r\\nB: 2013\\r\\nC: 2014\"\r\n       
+    ],\r\n        \"anwser\": [\r\n          2,\r\n          1\r\n        ],\r\n       
+    \"imageURL\": \"https://lh5.googleusercontent.com/p/AF1QipNivr17UZwAEY-Cbk0AGU--YgohQb1aMCQ6-g0Y=w408-h306-k-no\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"f6aa5925-4c2e-4e32-aa94-ae47c0a48bb7\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Jodanboys\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\": \"52.01019792570325,
+    4.734633140750219\",\r\n        \"name\": \"Jodan boys\",\r\n        \"item\":
+    \"marker10\",\r\n        \"scale\": 0.2,\r\n        \"questionInfo\": \"Jodanboys-q\",\r\n       
+    \"MaxDistance\": 25\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
+    \"entityId\": \"b89382aa-579a-4161-8d45-a1f8ec9d579c\"\r\n    },\r\n    \"rs\":
+    {\r\n      \"key\": \"Jodanboys-q\",\r\n      \"type\": \"json\",\r\n      \"schemaId\":
+    null,\r\n      \"value\": {\r\n        \"question\": [\r\n          \"Hoeveel
+    sponsoren heeft Jodan boys?\\r\\nA: 32\\r\\nB: 127\\r\\nC: 66\",\r\n         
+    \"Uit hoeveel leden bestaat de top van Jodan boys?\\r\\nA: 3\\r\\nB: 4\\r\\nC:
+    6\"\r\n        ],\r\n        \"anwser\": [\r\n          2,\r\n          1\r\n       
+    ],\r\n        \"imageURL\": \"https://degouda.nl/wp-content/uploads/2017/03/jodanboys.jpg\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"90ee057e-fec0-405f-a994-f939c69b79ed\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"SintJanKerk\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\": \"52.00523677990423,
+    4.700297171777901\",\r\n        \"name\": \"Sint Jan Kerk\",\r\n        \"item\":
+    \"marker14\",\r\n        \"scale\": 0.75,\r\n        \"questionInfo\": \"SintJanKerk-q\",\r\n       
+    \"MaxDistance\": 25\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
+    \"entityId\": \"a4bca056-be9e-4005-93ed-01ab7ada2b4d\"\r\n    },\r\n    \"rs\":
+    {\r\n      \"key\": \"SintJanKerk-q\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\": [\r\n         
+    \"Hoeveel glas in lood ramen zijn er in de kerk?\\r\\nA: 27\\r\\nB: 56\\r\\nC:
+    72\",\r\n          \"In welke stijl is de kerk gebouwd?\\r\\nA: Gotisch\\r\\nB:
+    Romaans\\r\\nC: Barokarchi \"\r\n        ],\r\n        \"anwser\": [\r\n         
+    2,\r\n          1\r\n        ],\r\n        \"imageURL\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/St.Janskerk.jpg/266px-St.Janskerk.jpg\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"fe31de4e-4ecf-41e0-9996-89bcbdae5aeb\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"StationGouda\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"location\": \"52.01815804350351,
+    4.706574755021642\",\r\n        \"name\": \"Station Gouda\",\r\n        \"item\":
+    \"marker2\",\r\n        \"scale\": 4,\r\n        \"questionInfo\": \"StationGouda-q\",\r\n       
+    \"MaxDistance\": 25\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
+    \"entityId\": \"c12ede92-cc66-4ae9-baaa-323f865f2276\"\r\n    },\r\n    \"rs\":
+    {\r\n      \"key\": \"StationGouda-q\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"question\": [\r\n         
+    \"Wanneer was dit treinstation geopend?\\r\\nA: 1855\\r\\nB: 1900\\r\\nC: 1948\",\r\n         
+    \"Hoe vaak per dag vertrekt er een intercity van Gouda naar Utrecht?\\r\\nA:
+    24 keer per dag\\r\\nB: 48 keer per dag\\r\\nC: 72 keer per dag\"\r\n       
+    ],\r\n        \"anwser\": [\r\n          0,\r\n          1\r\n        ],\r\n       
+    \"imageURL\": \"https://lh5.googleusercontent.com/p/AF1QipM8feuXkhj55saAI5NFCQiGU6XiR_o19ogKCAVC=w408-h271-k-no\",\r\n       
+    \"preserveAspect\": true,\r\n        \"points\": 1\r\n      }\r\n    }\r\n  }\r\n]"
+  _environments: "[\r\n  {\r\n    \"projectId\": \"688a4757-33ff-4c23-ac9c-cef7b5f6a6d6\",\r\n   
+    \"name\": \"production\",\r\n    \"id\": \"8b4a9d08-4216-4319-9d10-8f33c2b8287a\",\r\n   
+    \"createdAt\": \"2021-05-28T19:25:02Z\",\r\n    \"updatedAt\": \"2021-06-12T10:52:09Z\",\r\n   
+    \"isDefault\": true\r\n  },\r\n  {\r\n    \"projectId\": \"688a4757-33ff-4c23-ac9c-cef7b5f6a6d6\",\r\n   
+    \"name\": \"main\",\r\n    \"id\": \"3bb5bcdc-d402-4c47-b3bf-7d2931b9fba6\",\r\n   
+    \"createdAt\": \"2021-06-10T09:02:34Z\",\r\n    \"updatedAt\": \"2021-06-12T10:52:09Z\",\r\n   
+    \"isDefault\": false\r\n  },\r\n  {\r\n    \"projectId\": \"688a4757-33ff-4c23-ac9c-cef7b5f6a6d6\",\r\n   
+    \"name\": \"Dev\",\r\n    \"id\": \"4846e91f-4b57-408a-b65d-35fb42ac5790\",\r\n   
+    \"createdAt\": \"2021-06-08T16:54:01Z\",\r\n    \"updatedAt\": \"2021-06-08T16:54:01Z\",\r\n   
+    \"isDefault\": false\r\n  },\r\n  {\r\n    \"projectId\": \"688a4757-33ff-4c23-ac9c-cef7b5f6a6d6\",\r\n   
+    \"name\": \"0.1\",\r\n    \"id\": \"cd2db1d1-b7a2-4a95-9995-b104dd5149c1\",\r\n   
+    \"createdAt\": \"2021-06-08T16:54:47Z\",\r\n    \"updatedAt\": \"2021-06-10T08:08:14Z\",\r\n   
+    \"isDefault\": false\r\n  },\r\n  {\r\n    \"projectId\": \"688a4757-33ff-4c23-ac9c-cef7b5f6a6d6\",\r\n   
+    \"name\": \"VersionToEnv\",\r\n    \"id\": \"64bce3d8-6aaa-4d07-a4b9-ee035d0f57b3\",\r\n   
+    \"createdAt\": \"2021-06-11T05:08:41Z\",\r\n    \"updatedAt\": \"2021-06-11T05:08:41Z\",\r\n   
+    \"isDefault\": false\r\n  }\r\n]"
+  _rulesList: '[]'
+  _lastCachedRulesList: '[]'
